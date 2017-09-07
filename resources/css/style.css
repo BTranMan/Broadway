@@ -5,29 +5,34 @@ html {
 
 h1 {
   font-size: 70px;
-  font-weight: bold;
 }
 
 h2 {
   font-size: 32px;
-  font-weight: bold;
 }
 
 h3 {
   font-size: 23px;
+}
+
+h1, h2, h3 {
   font-weight: bold;
 }
 
-a {
-  color: white;
+nav a {
   font-size: 18px;
 }
 
-#banner {
-  color: white;
+.banner {
   background-image: url(../images/the-flatiron-building.png)
+}
 
-/*  background-repeat: no-repeat;
-  background-size: contain; */
+#footer {
+  font-size: 11px;
+  background-color: dimgray;
+  text-align: left;
+}
 
+a, .banner, #footer {
+  color: white;
 }
